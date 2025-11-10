@@ -1,29 +1,27 @@
-/*
--- Primära datatyper
 
-// Heltal
-int    - Standard för heltal (32 bitar)
-byte   - Används till mycket små tal (8 bitar)
-short  - lite större heltal (16 bitar)
-long   - väldigt stora heltal (64 bitar)
+## -- Primära datatyper
 
-// Decimaltal
-double - Standard för decimaltal (högre precision, 15-17 decimala siffror)
-float  - Mindre precision och vill spara på minnet (6-7 decimala siffror)
+### Heltal
+* int    - Standard för heltal (32 bitar)
+* byte   - Används till mycket små tal (8 bitar)
+* short  - lite större heltal (16 bitar)
+* long   - väldigt stora heltal (64 bitar)
 
-// Övriga typer
-boolean - endast sant eller falskt
-char    - lagrar enskilda tecken, antingen en bokstav ('A') eller en siffra ('1')
+### Decimaltal
+* double - Standard för decimaltal (högre precision, 15-17 decimala siffror)
+* float  - Mindre precision och vill spara på minnet (6-7 decimala siffror)
 
-*/
+### Övriga typer
+* boolean - endast sant eller falskt
+* char    - lagrar enskilda tecken, antingen en bokstav ('A') eller en siffra ('1')
 
-import java.util.Scanner; // Vi importerar Scanner-verktyget
 
+```
 public class Application {
 
     public static void main(String[] args) {
 
-        /*
+        
         // 1. Deklaration - Vi skapar en tom låda av typen string
         String userName;
 
@@ -35,10 +33,13 @@ public class Application {
 
         System.out.println(userName);
         System.out.println(lastName);
+       }
+     } 
+```
+## Datatyper
 
-        // Datatyper
-
-        // 1. Heltal (int)
+### Vanligaste datatyperna är int, double och boolean
+```
         int userAge = 30;
         int bankBalance = -100; // Heltal kan vara negativa
 
@@ -54,7 +55,10 @@ public class Application {
 
         int nextYearAge = userAge + 1;
         System.out.println("Nästa år är användaren " + nextYearAge + " år gammal");
+```
 
+## Typomvandling
+```
         // Implicit casting - sköts automatiskt
         int heltal = 5;
         double decimaltal = heltal;
@@ -63,9 +67,15 @@ public class Application {
         double mittTal = 10.99;
         int baraHeltal = (int) mittTal;
 
-        System.out.println(baraHeltal);
-        */
+```
+        
+## Använda scanner
+```
+import java.util.Scanner; // Vi importerar Scanner-verktyget
 
+public class Application {
+
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         // REKOMMENDERAT SÄTT (Läs in som sträng, konvertera till int)
@@ -90,12 +100,12 @@ public class Application {
         String userName = scanner.nextLine(); // Läser en hel textrad
         System.out.println("Ditt namn är: " + userName); // Lade till en utskrift för klarhet
 
+        // Fråga vart användaren bor
         System.out.println("Vart bor du?");
         String cityName = scanner.nextLine();
 
         System.out.println("Jag bor i " + cityName);
         
-        // OBS! Glöm inte att stänga scannern i ett riktigt program!
-        // scanner.close();
     }
 }
+```
