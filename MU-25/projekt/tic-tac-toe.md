@@ -1,7 +1,5 @@
 # Spelprojekt : Tre-i-rad
 
----
-
 ## Uppgift
 
 Skapa ett text-baserat Tre-i-rad-spel i Java som spelas av två mänskliga spelare i terminalen/konsollen. 
@@ -9,11 +7,8 @@ Varje spelare turas om att ange var i ett 3x3-rutnät spelaren önskar placera X
 När en spelare har tre X (eller O) i rad horisontellt, vertikalt eller diagonalt meddelar spelet vem som vann. 
 Har ingen spelare tre i rad när inga tomma rutor längre kvarstår slutar spelet oavgjort. Efter att ett spel är klart börjar spelet om med ett nytt tomt rutnät.
 
----
-
 ## Exempel
 
----
 ````
  X | O |  
 ---+---+---
@@ -36,22 +31,16 @@ Spelare O, vilken ruta (1-9)?
 
 ## Frivilligt
 
----
-
 - Du väljer själv om du för spelaren vill representera rutorna i rutnätet med siffror (1--9) eller koordinater (a1, a2, a3, b1, b2 o.s.v.) eller på annat motiverat sätt.
 
 - Spelplanen behöver inte se ut som i exemplet ovan utan du väljer själv hur spelplanen ska se ut i terminalen/konsollen. Du ska kunna motivera hur designen av din spelplan antingen gjort det enklare för dig att skriva kod eller lättare för spelaren att ta till sig spelet.
 
 ## Inlämning
 
----
-
 Uppgiften lämnas in som github-länk på Azomo senaste fredag 5 december kl 23.59
 vid den tidpunkten skall nedan krav vara uppfyllda.
 
 ## Krav
-
----
 
 #### För godkänt ska spelet minst uppfylla följande krav:
 
@@ -75,8 +64,6 @@ Onödig kodupprepning ska i största mån undvikas.
 
 #### Extra
 Spelet får gärna byggas ut utöver detta. Tex med bättre datorspelare och olika nivåer på hur bra datorspelaren är.
-
----
 
 ### Riktlinjer för användning av Aizo och AI:
 
