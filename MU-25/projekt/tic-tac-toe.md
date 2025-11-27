@@ -65,7 +65,8 @@ Onödig kodupprepning ska i största mån undvikas.
 #### Extra
 Spelet får gärna byggas ut utöver detta. Tex med bättre datorspelare och olika nivåer på hur bra datorspelaren är.
 
-### Riktlinjer för användning av Aizo och AI:
+
+## Riktlinjer för användning av Aizo och AI:
 
 1. AI som ett hjälpmedel, inte en ersättning: Använd AI-verktyg och resurser som en hjälpande hand för att förbättra din produktivitet och förståelse av ämnet. Tänk på AI som ett komplement till ditt eget arbete, inte som ett sätt att ersätta det. Använd AI endast för att skapa kortare funktionalitet och inte för att generera hela program.
 2. Förstå din kod: Se till att du förstår den kod du skriver. Om du använder AI för att generera kod, var säker på att du kan förklara hur koden fungerar och varför den är korrekt.
